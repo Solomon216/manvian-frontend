@@ -35,7 +35,7 @@ export default function Hero() {
                 </p>
             </div>
             <div className="">
-                <div className="w-[405px] absolute h-[471px] bg-white/60 rounded-full blur-[150px]" />
+                <div className="w-[705px] top-0 absolute h-[530px] bg-white/60 rounded-full blur-[150px]" />
                 <img src={hands} alt="" className="w-[550px] ml-auto" />
             </div>
         </div>

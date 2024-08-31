@@ -26,7 +26,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="bg-white/0 backdrop-blur-lg fixed w-full z-5 dark:bg-transparent dark:backdrop-blur-lg py-5">
+    <nav className="bg-white/0 backdrop-blur-lg fixed w-full z-50 dark:bg-transparent dark:backdrop-blur-lg py-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <a href="https://flowbite.com/" className="flex items-center rtl:space-x-reverse">
           <img src={image} alt="Flowbite Logo" className="h-10" />
@@ -50,16 +50,13 @@ function NavBar() {
               <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">Home</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">About</a>
+              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">About us</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">Services</a>
+              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">Features</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">Pricing</a>
-            </li>
-            <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">Contact</a>
+              <a href="#" className="block py-2 px-3 text-white hover:text-[#33bbcf] md:hover:text-[#33bbcf] md:p-0 dark:text-white md:dark:hover:text-[#33bbcf]">Solution</a>
             </li>
           </ul>
         </div>
